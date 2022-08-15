@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+.azul {
+  max-width: 50%;
+  max-height: 50%;
+  background-color: #4e5bee;
+  height: 100vh;
+  width: 30%;
+  /* border: 3px solid red; */
+  text-align: center;
+}
+
+.grab-svg {
+
+}
+
+.email {
+  display: flex;
+  margin-top: 45%;
+  height: 3vh;
+  width: 9vw;
+  border: 2px solid white;
+  background-color: #4e5bee;
+  border-radius: 25px;
+}
+.email-input {
+  background: none;
+}
+.svg-email {
+  width: 16%;
+}
+
+.senha {
+  margin-top: 2%;
+  height: 3vh;
+  width: 9vw;
+  border: 2px solid white;
+  background-color: #4e5bee;
+  border-radius: 25px;
+}
+.senha-input {
+  background: none;
+}
+.svg-senha {
+width: 16%;
+}
+
+.entrar {
+  height: 4vh;
+  width: 9vw;
+  border: 2px solid white;
+  background-color: white;
+  border-radius: 25px;
+  margin-top: 3%;
+}
+
+.problema {
+  margin-top: 45%;
+  margin-bottom: 20%;
+  height: 6vh;
+  width: 100%;
+  color: white;
+}
+
+a {
+  display: flex;
+  color: white;
+  flex-direction: column;
+}
+
+.branco {
+  max-width: 50%;
+  max-height: 50%;
+  position: relative;
+  text-align: center;
+  height: 100vh;
+  width: 70%;
+  /* border: 3px solid red; */
+  max-width: 100vh;
+  max-width: 70%;
+}
