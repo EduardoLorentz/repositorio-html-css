@@ -4,57 +4,38 @@
 }
 
 body {
-  height: 100vh;
-  width: 100vw;
   display: flex;
-  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
 }
 
 .tudo {
   display: flex;
-  justify-content: center;
+  border: 3px solid red;
+  width: 25%;
+  height: 50%;
   align-items: center;
-  border: 1px solid black;
+  text-align: center;
   flex-direction: column;
-  border-radius: 10px;
+  justify-content: center;
 }
 
 .login {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: baseline;
 }
-
-h3 {
-  margin-bottom: 5px;
+ h3 {
+  display: flex;
+  margin: 1px;
 }
 
 h5 {
-  margin-top: 5px;
-  margin-bottom: 20px;
-}
-
-#email {
-  display: flex;
-  padding: 13px 15px;
-  border-radius: 4px;
-  font-size: 16px;
-  height: 28px;
-}
-
-.esqueceu {
-  display: flex;
-  font-size: small;
-  margin-top: 5px;
-}
-
-.saiba-mais {
-  font-size: smaller;
-}
-
-.zas {
-  display: flex;
-
-}
+    display: flex;
+    margin: 1px;
+  }
